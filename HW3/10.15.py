@@ -1,3 +1,5 @@
+#Brian Rivera
+#1922712
 class Team:
     def __init__(self):
         self.team_name = 'none'
@@ -12,6 +14,8 @@ if __name__ == "__main__":
     team_name=input()
     team_wins = int(input())
     team_losses = int(input())
+
+
 
     team.team_name = team_name
     team.team_wins = team_wins
